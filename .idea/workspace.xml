@@ -4,25 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5109bcce-415c-450d-9f89-4a41a848e089" name="Changes" comment="第一次提交">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-order/src/main/java/com/example/NacosOrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-order/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-order/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-stock/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-stock/src/main/java/example/NacosOrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-stock/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-stock/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="5109bcce-415c-450d-9f89-4a41a848e089" name="Changes" comment="服务注册实现">
+      <change afterPath="$PROJECT_DIR$/nacos-order/src/main/java/com/example/feign/StockFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-stock/src/main/java/example/controller/StockController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-order/src/main/java/com/example/NacosOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-order/src/main/java/com/example/NacosOrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-stock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-stock/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +57,7 @@
     "Spring Boot.NacosConfigTestApplication.executor": "Run",
     "Spring Boot.NacosDemoApplication.executor": "Run",
     "Spring Boot.NacosOrderApplication (1).executor": "Run",
+    "Spring Boot.NacosStockApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -145,8 +147,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NacosStockApplication" />
         <item itemvalue="Spring Boot.NacosOrderApplication (1)" />
+        <item itemvalue="Spring Boot.NacosStockApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +170,7 @@
       <updated>1748171560619</updated>
       <workItem from="1748171561930" duration="1431000" />
       <workItem from="1748224370638" duration="4870000" />
-      <workItem from="1748241019308" duration="3909000" />
+      <workItem from="1748241019308" duration="4538000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -178,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748244620062</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="服务注册实现">
+      <option name="closed" value="true" />
+      <created>1748245975218</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748245975218</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +196,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+    <MESSAGE value="服务注册实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务注册实现" />
   </component>
 </project>
