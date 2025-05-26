@@ -10,6 +10,7 @@
     <modules>
         <module>nacos-config-test</module>
         <module>nacos-order</module>
+        <module>nacos-stock</module>
     </modules>
 
 

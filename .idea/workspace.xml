@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5109bcce-415c-450d-9f89-4a41a848e089" name="Changes" comment="" />
+    <list default="true" id="5109bcce-415c-450d-9f89-4a41a848e089" name="Changes" comment="第一次提交">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-order/src/main/java/com/example/NacosOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-order/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-stock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-stock/src/main/java/example/NacosOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-stock/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-stock/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,28 +52,34 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.NacosConfigTestApplication.executor": "Run",
     "Spring Boot.NacosDemoApplication.executor": "Run",
+    "Spring Boot.NacosOrderApplication (1).executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/internPrepare/Nacos-demo/Nacos-demo",
+    "last_opened_file_path": "E:/internPrepare/Nacos-demo/Nacos-demo/nacos-stock/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.33448276",
+    "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-stock\src\main\resources" />
+      <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-stock\src\main\java" />
+      <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-order\src\main\java" />
+      <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-order\src\main\resources" />
       <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-config-test\src\main\resources" />
-      <recent name="E:\internPrepare\Nacos-demo\Nacos-demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-config-test\src\test\java" />
@@ -71,7 +91,16 @@
       <recent name="com.example.controller" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NacosStockApplication">
     <configuration name="NacosConfigTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -81,6 +110,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NacosOrderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.NacosOrderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="nacos-stock" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.NacosOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosStockApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-stock" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.NacosStockApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NacosStockApplication" />
+        <item itemvalue="Spring Boot.NacosOrderApplication (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -100,11 +168,24 @@
       <updated>1748171560619</updated>
       <workItem from="1748171561930" duration="1431000" />
       <workItem from="1748224370638" duration="4870000" />
-      <workItem from="1748241019308" duration="2651000" />
+      <workItem from="1748241019308" duration="3909000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <option name="closed" value="true" />
+      <created>1748244620062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748244620062</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
 </project>
