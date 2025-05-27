@@ -9,6 +9,6 @@ public class StockController {
 
     @RequestMapping("test")
     public String test(String info) {
-        return "库存模块1接收的信息："+info;
+        return "库存模块2接收的信息："+info;
     }
 }

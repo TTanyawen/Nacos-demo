@@ -11,6 +11,7 @@
         <module>nacos-config-test</module>
         <module>nacos-order</module>
         <module>nacos-stock</module>
+        <module>nacos-stock2</module>
     </modules>
 
 

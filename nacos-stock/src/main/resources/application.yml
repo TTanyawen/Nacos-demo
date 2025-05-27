@@ -10,3 +10,6 @@ spring:
         nacos:
             discovery:
                 server-addr: 127.0.0.1:8848
+                namespace: 20daec92-4272-4233-a7cc-a817e39bbea0
+                cluster-name: TTT
+

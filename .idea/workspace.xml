@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5109bcce-415c-450d-9f89-4a41a848e089" name="Changes" comment="服务注册实现">
-      <change afterPath="$PROJECT_DIR$/nacos-order/src/main/java/com/example/feign/StockFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-stock/src/main/java/example/controller/StockController.java" afterDir="false" />
+    <list default="true" id="5109bcce-415c-450d-9f89-4a41a848e089" name="Changes" comment="openfeign服务调用实现">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-stock2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-stock2/src/main/java/example/NacosStock2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-stock2/src/main/java/example/controller/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-stock2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-stock2/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-order/src/main/java/com/example/NacosOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-order/src/main/java/com/example/NacosOrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-stock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-stock/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-stock/src/main/java/example/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-stock/src/main/java/example/controller/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-stock/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-stock/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-stock/target/classes/example/controller/StockController.class" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-stock/target/classes/example/controller/StockController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,11 +64,12 @@
     "Spring Boot.NacosConfigTestApplication.executor": "Run",
     "Spring Boot.NacosDemoApplication.executor": "Run",
     "Spring Boot.NacosOrderApplication (1).executor": "Run",
+    "Spring Boot.NacosStock2Application.executor": "Run",
     "Spring Boot.NacosStockApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/internPrepare/Nacos-demo/Nacos-demo/nacos-stock/src/main/resources",
+    "last_opened_file_path": "E:/internPrepare/Nacos-demo/Nacos-demo/nacos-stock2/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,11 +85,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-stock2\src\main\resources" />
+      <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-stock2\src\main\java" />
       <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-stock\src\main\resources" />
       <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-stock\src\main\java" />
       <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-order\src\main\java" />
-      <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-order\src\main\resources" />
-      <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-config-test\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\internPrepare\Nacos-demo\Nacos-demo\nacos-config-test\src\test\java" />
@@ -102,7 +110,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosStockApplication">
+  <component name="RunManager" selected="Spring Boot.NacosOrderApplication (1)">
     <configuration name="NacosConfigTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,6 +136,13 @@
     <configuration name="NacosOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="nacos-stock" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="example.NacosOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosStock2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="nacos-stock2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.NacosStock2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,7 +185,8 @@
       <updated>1748171560619</updated>
       <workItem from="1748171561930" duration="1431000" />
       <workItem from="1748224370638" duration="4870000" />
-      <workItem from="1748241019308" duration="4538000" />
+      <workItem from="1748241019308" duration="5198000" />
+      <workItem from="1748308570395" duration="1849000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <option name="closed" value="true" />
@@ -188,15 +204,43 @@
       <option name="project" value="LOCAL" />
       <updated>1748245975218</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="openfeign服务调用实现">
+      <option name="closed" value="true" />
+      <created>1748246618355</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748246618355</updated>
+    </task>
+    <task id="LOCAL-00004" summary="openfeign服务调用实现">
+      <option name="closed" value="true" />
+      <created>1748246733215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748246733215</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
     <MESSAGE value="服务注册实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="服务注册实现" />
+    <MESSAGE value="openfeign服务调用实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="openfeign服务调用实现" />
   </component>
 </project>
